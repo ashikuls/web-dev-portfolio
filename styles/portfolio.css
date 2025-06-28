@@ -1,0 +1,164 @@
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+/* shared style */
+.secondary-bg{
+ background-color: #FFF8F3;  
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+
+.btn-primary{
+    background-color:#FD6E0A ;
+    color: white;
+    padding: 18px 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+/* Header */
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    margin: 38px 0 25px 23px ;
+}
+
+/* Nav style */
+nav{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+
+
+/* Banner style */
+
+.banner-gretings{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-discription {
+    font-size: 18px;
+}
+.banner-picture{
+  width: 584;
+  height: 676;  
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+  max-width: 580px;  
+}
+ /* Main */
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+/* About styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+  
+    padding:30px 22px 0px 22px ;
+}
+
+/* what-i-do */
+.what-i-do{
+    margin-top: 135px;
+}
+.what-i-do-description{
+    margin-left: 140px;
+    margin-right: 14 0px;
+}
+/* Skills */
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+padding:33px;
+border-radius: 5px;
+box-shadow: 0px 6px 50px 0px rgb(0,0,0,0.06) ;
+margin-top: 50px;
+margin-bottom: 130px;
+}
+
+/*A summary of My Resume*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-colum-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.text-center{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 80px;
+}
